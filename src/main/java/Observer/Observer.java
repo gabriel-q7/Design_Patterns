@@ -1,5 +1,6 @@
 package Observer;
 
 public interface Observer {
-    public void update(int value);
+    //Necessita das variaveis do Subject
+    public void update(float temp, float humidity, float pressure);
 }
