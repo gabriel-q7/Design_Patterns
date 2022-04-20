@@ -29,7 +29,7 @@ public class WeatherStation implements Subject {
         }
     }
 
-    public void setMeasurements() {
+    public void setMeasurements(float temperature, float humidity, float pressure) {
         this.temperature = temperature;
         this.humidity = humidity;
         this.pressure = pressure;
