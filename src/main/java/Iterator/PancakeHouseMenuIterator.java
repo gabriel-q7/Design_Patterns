@@ -6,7 +6,7 @@ public class PancakeHouseMenuIterator implements Iterator {
     ArrayList<MenuItem> items;
     int position = 0;
 
-    public PancakeHouseMenuIterator(ArrayList<MenuItem> menuItems) {
+    public PancakeHouseMenuIterator(ArrayList<MenuItem> items) {
         this.items = items;
     }
 
